@@ -1,3 +1,12 @@
 // Place all the styles related to the dashboard controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+
+.widget-container {
+  background: rgba(255,255,255,.4);
+  width: 300px;
+}
+
+.widget-avatar {
+  color:white;
+}

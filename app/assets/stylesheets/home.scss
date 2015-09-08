@@ -2,22 +2,33 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
+
 .container-home {
-  background-color: #1B3C59;
+  background-color: #ffffff;
   min-height: 100vh;
   padding-top: 30vh;
   text-align: center;
 }
 
 .home {
-  color: white;
+  color: #2b2b2b;
   font-weight: 100;
-  font-size: 100;
+}
+
+.home-pic {
+  float:right;
+}
+
+.shine {
+  margin-top: 150px;
+  height: 200px;
+  width: 200px;
+  border-radius: 50px;
+  box-shadow: 37px 10px 75px 59px rgba(255, 222, 35, 0.75);
 }
 
 h1.home {
   font-size: 60px;
-  color: #F8BB44;
 }
 
 a.btn.btn-lg.btn-default.btn-home {

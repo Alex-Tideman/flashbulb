@@ -3,12 +3,47 @@
 <head>
   <title>Flashbulb</title>
   <%= stylesheet_link_tag    'application', media: 'all' %>
+  <script src="js/libs/modernizr.min.js"></script>
+  <script src="js/libs/jquery-1.10.0.js"></script>
+  <script src="js/libs/jquery-ui.min.js"></script>
   <%= javascript_include_tag 'application' %>
   <%= csrf_meta_tags %>
 </head>
 <body>
+<div class="row">
+  <div class="col-12">
+    <!-- Website Menu -->
+    <div id="topmenu">
+      <ul class="dropdown clearfix boxed boxed-blue">
+        <li class="link-more"><a href="#"><i></i></a></li>
+        <li class="menu-level-0"><span><%= link_to "Home", root_path %></span></li>
+        <% if current_user %>
+        <li class="menu-level-0"><span><%= link_to "Profile", dashboard_path %></span></li>
+        <li class="menu-level-0"><span><%= link_to "Feed", dashboard_path %></span></li>
+            <li class="menu-level-0"><span><%= link_to "Logout", logout_path, class: "btn btn-sm" %></span></li>
 
-<%= yield %>
-
+      <% else %>
+            <li class="menu-level-0"><span><%= link_to "Login with Instagram", "/auth/instagram", class: "btn btn-sm" %></span></li>
+<% end %>
+            <li class="menu-search">
+          <form id="searchForm" class="menu-search-form" method="post">
+            <input type="text" name="search" value="" class="menu-search-field" placeholder="Search the website" />
+            <input type="submit" value="" class="btn menu-search-submit" name="search-send" />
+          </form>
+        </li>
+      </ul>
+    </div>
+    <!--/ Website Menu -->
+  </div>
+</div>
+<div class="row">
+  <div class="col-md-2"><span class='shine'></span><%= image_tag 'lightbulb.png', class: 'home-pic' %>
+  </div>
+  <div class="col-md-10">
+    <div class="container-fluid container-home">
+    <%= yield %>
+    </div>
+  </div>
+</div>
 </body>
 </html>
