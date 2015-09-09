@@ -2,10 +2,7 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
-
 .container-home {
-  background-color: #ffffff;
-  min-height: 100vh;
   padding-top: 30vh;
   text-align: center;
 }
@@ -15,16 +12,18 @@
   font-weight: 100;
 }
 
+.home-content {
+  margin-top: -100px;
+}
+
 .home-pic {
   float:right;
 }
 
 .shine {
   margin-top: 150px;
-  height: 200px;
-  width: 200px;
-  border-radius: 50px;
-  box-shadow: 37px 10px 75px 59px rgba(255, 222, 35, 0.75);
+  border-radius: 150px;
+  box-shadow: 55px 30px 120px 70px rgba(255, 222, 35, 0.75);
 }
 
 h1.home {

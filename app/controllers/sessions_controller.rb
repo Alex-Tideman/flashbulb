@@ -5,7 +5,7 @@ class SessionsController < ApplicationController
 
     if user
       session[:user_id] = user.id
-      flash.now[:notice] = "Welcome back to Flashbulbz"
+      flash[:notice] = "Welcome back to Flashbulbz"
       redirect_to dashboard_path
     else
       redirect_to root_path

@@ -2,11 +2,36 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
-.widget-container {
-  background: rgba(255,255,255,.4);
+.card {
+  background: rgba(0,0,0,.2);
+  padding: 50px;
   width: 300px;
+  height: 420px;
+}
+
+.card img {
+  margin-right: auto;
+  margin-left: auto;
+  width: 200px;
 }
 
 .widget-avatar {
   color:white;
+
+}
+
+h1 {
+  text-align: center;
+}
+
+.card-title {
+  text-align: center;
+}
+
+.my-pics {
+  background: rgba(0,0,0,.2);
+  padding: 50px;
+  width: 90%;
+  height: 420px;
+  float:right;
 }

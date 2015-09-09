@@ -1,34 +1,17 @@
 <div class="container-fluid">
-  <div class="col-md-2"></div>
-  <div class="col-md-8">
-    <h1 class="home">Dashboard</h1>
-    <div id="dashboard-card" class="widget-container widget-avatar">
-      <div class="inner">
-        <h5><%= current_user.name %></h5>
-        <span class="subtitle"><%= current_user.nickname %></span>
-        <div class="avatar">
-          <%= image_tag current_user.image %>
-        </div>
-        <div class="followers">
-          <span class="counter">125</span>
-          followers
-        </div>
-        <a class="btn btn-green btn-follow" href="#" hidefocus="true">
-            <span>
-              <i></i>
-              Follow
-            </span>
-        </a>
-      </div>
-    </div>
-    <div class="post-item post-quote boxed">
-      <span class="post-label"></span>
-      <div class="inner">
-        <div class="post-title bio">
-          <h3>asdf;lasdfa<%= current_user.bio %></h3>
-        </div>
+  <h1 class="home">Dashboard</h1>
+  <div class="col-md-2">
+    <div class="card">
+      <div class="card-block">
+        <%= image_tag current_user.image, class: "card-img-top"  %>
+        <h4 class="card-title"><%= current_user.nickname %></h4>
+        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.<%= current_user.bio %></p>
+        <p class="card-text"><div class="followers"><span class="counter"><strong>125</strong> </span>followers</div></p>
       </div>
     </div>
   </div>
-  <div class="col-md-2"></div>
+  <div class="col-md-10">
+    <div class="my-pics">
+    </div>
+  </div>
 </div>

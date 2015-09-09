@@ -11,6 +11,9 @@ gem 'jbuilder', '~> 2.0'
 gem 'bootstrap-sass', '~> 3.3.3'
 gem 'omniauth-instagram'
 gem 'figaro'
+gem 'hurley'
+
+
 
 
 group :development, :test do

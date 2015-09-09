@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Flashbulb</title>
+  <title>Flashbulbz</title>
   <%= stylesheet_link_tag    'application', media: 'all' %>
   <script src="js/libs/modernizr.min.js"></script>
   <script src="js/libs/jquery-1.10.0.js"></script>
@@ -36,14 +36,9 @@
     <!--/ Website Menu -->
   </div>
 </div>
+<%= render partial: 'partials/flash_messages' %>
 <div class="row">
-  <div class="col-md-2"><span class='shine'></span><%= image_tag 'lightbulb.png', class: 'home-pic' %>
-  </div>
-  <div class="col-md-10">
-    <div class="container-fluid container-home">
-    <%= yield %>
-    </div>
-  </div>
+  <%= yield %>
 </div>
 </body>
 </html>
