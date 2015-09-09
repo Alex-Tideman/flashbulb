@@ -8,6 +8,7 @@ class SessionsController < ApplicationController
       flash[:notice] = "Welcome back to Flashbulbz"
       redirect_to dashboard_path
     else
+      flash[:error] = "Login didn't work"
       redirect_to root_path
     end
   end

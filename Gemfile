@@ -12,6 +12,7 @@ gem 'bootstrap-sass', '~> 3.3.3'
 gem 'omniauth-instagram'
 gem 'figaro'
 gem 'hurley'
+gem 'instagram'
 
 
 

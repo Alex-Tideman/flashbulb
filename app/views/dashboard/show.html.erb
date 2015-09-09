@@ -1,17 +1,27 @@
 <div class="container-fluid">
-  <h1 class="home">Dashboard</h1>
   <div class="col-md-2">
     <div class="card">
       <div class="card-block">
-        <%= image_tag current_user.image, class: "card-img-top"  %>
+        <%= image_tag @user.profile_picture, class: "card-img-top"  %>
         <h4 class="card-title"><%= current_user.nickname %></h4>
         <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.<%= current_user.bio %></p>
-        <p class="card-text"><div class="followers"><span class="counter"><strong>125</strong> </span>followers</div></p>
+        <p class="card-text"><div class="followers"><span class="counter"><strong><%= @user.counts.followed_by %></strong> </span>followers</div></p>
       </div>
     </div>
   </div>
   <div class="col-md-10">
     <div class="my-pics">
+      <% @client.user_recent_media.each do |media| %>
+          <div class="col-md-6">
+            <%= image_tag media.images.low_resolution.url, class: "card-img-top"  %>
+            <div class="post-text">
+            <p><%= media["likes"]["count"] %> likes</p>
+                <% media.comments.data.each do |comment| %>
+                 <p><%= comment.text %><br>- <%= comment.from.username %></p>
+                 <% end %>
+            </div>
+          </div>
+    <% end %>
     </div>
   </div>
 </div>
