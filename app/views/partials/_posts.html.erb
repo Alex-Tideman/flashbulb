@@ -23,11 +23,38 @@
   </div>
   <div class="col-md-10">
     <div class="my-pics">
-    <% @posts.each do |media| %>
+    <% @posts.each do |post| %>
           <div class="col-md-6 feed-post">
-            <%= image_tag media.images.low_resolution.url, class: "card-img-main"  %>
+            <a href="" data-toggle="modal" data-target="#post-<%= post.id %>"><%= image_tag post.images.low_resolution.url, class: "card-img-main"  %></a>
+            <!-- Modal -->
+            <div id="post-<%= post.id %>" class="modal fade" role="dialog">
+              <div class="modal-dialog">
+
+                <!-- Modal content-->
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <%= image_tag post.user.profile_picture, id: "modal-prof-pic" %>
+                    <%= post.user.username %>
+                    <span><%= post["likes"]["count"] %> likes</span>
+                  </div>
+                  <div class="modal-body">
+                    <%= image_tag post.images.standard_resolution.url %>
+                  </div>
+                  <div class="modal-footer">
+                    <ul>
+                      <% post.comments.data.each do |comment| %>
+                          <li id="comment"><%= comment.text %> - <%= comment.from.username %></li>
+                      <% end %>
+                    </ul>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+
             <div class="post-text">
-              <p><%= media["likes"]["count"] %> likes</p>
+              <p><%= post["likes"]["count"] %> likes</p>
             </div>
           </div>
       <% end %>

@@ -34,8 +34,9 @@
 
 .card-img-main {
   border-radius: 50%;
-  border: 1px solid #CCCFD0;
+  border: 1px solid #5AA2C8;
   box-sizing: border-box;
+  padding: 10px;
 }
 
 
@@ -69,4 +70,31 @@ h1 {
 
 #comment {
   font-size: 10px;
+}
+
+.modal {
+  width: 100%;
+}
+
+.modal span{
+  float:right;
+  margin-right:10%;
+  margin-top: 5%;
+}
+
+.modal img{
+  width: 500px;
+  height: 500px;
+  margin-left:35px;
+}
+
+#modal-prof-pic {
+  width: 80px;
+  height: 80px;
+  margin-right: auto;
+  margin-left: auto;
+  border-radius: 50%;
+  border: 1px solid #5AA2C8;
+  box-sizing: border-box;
+  padding: 5px;
 }
