@@ -6,7 +6,6 @@
   background: rgba(0,0,0,.2);
   padding: 50px;
   width: 300px;
-  height: 300px;
 }
 
 .card  img{
@@ -21,7 +20,8 @@
 }
 
 .name {
-  margin-top: -60px;
+  float:right;
+  margin-top: -80px;
 }
 
 .card-img-top {
