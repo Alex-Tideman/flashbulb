@@ -2,17 +2,15 @@
   <ul class="dropdown clearfix boxed boxed-blue">
     <li class="menu-level-0"><span><%= link_to "Home", root_path %></span></li>
     <% if current_user %>
-        <li class="menu-level-0"><span><%= link_to "Feed", dashboard_path %></span></li>
+        <li class="menu-level-0"><span><%= link_to "My Media", dashboard_path %></span></li>
+        <li class="menu-level-0"><span><%= link_to "Feed", feed_path %></span></li>
         <li class="menu-level-0"><span><%= link_to "Logout", logout_path, class: "btn btn-sm" %></span></li>
     <% else %>
-        <%#= link_to "Login with ", "auth/instagram", class: "btn btn-sm" %><a id="insta-logo" href="auth/instagram"><i class="fa fa-camera-retro fa-4x"></i></a>
+        <a id="insta-logo" href="auth/instagram"><i class="fa fa-camera-retro fa-4x"><h5>Login</h5></i></a>
     <% end %>
     <section id="nav-title"><h2>Flashbulb</h2></section>
     <li class="menu-search">
-      <form id="searchForm" class="menu-search-form" method="post">
-        <input type="text" name="search" value="" class="menu-search-field" placeholder="Search the website" />
-        <input type="submit" value="" class="btn menu-search-submit" name="search-send" />
-      </form>
+      <%= render partial: 'partials/search_form' %>
     </li>
   </ul>
 </div>

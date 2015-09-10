@@ -9,28 +9,28 @@
         <p class="card-text"><div class="followers"><span class="counter"><strong><%= current_user.counts.followed_by %></strong> </span>followers</div></p>
         <hr>
       </div>
-    <div class="card-block">
+      <div class="card-block">
         <h3>Comments</h3>
-      <ul>
-      <% current_client.user_recent_media.each do |media| %>
-          <% media.comments.data.each do |comment| %>
-                <li id="comment"><%= comment.text %> - <%= comment.from.username %></li>
-          <% end %>
-          <% end %>
-      </ul>
+        <ul>
+          <% current_client.tag_search(params[:search]).each do |media| %>
+              <% media.comments.data.each do |comment| %>
+                  <li id="comment"><%= comment.text %> - <%= comment.from.username %></li>
+              <% end %>
+        <% end %>
+        </ul>
+      </div>
     </div>
-    </div>
-    </div>
+  </div>
   <div class="col-md-10">
     <div class="my-pics">
-      <% current_client.user_recent_media.each do |media| %>
+      <% current_client.tag_search(params[:search]).each do |media| %>
           <div class="col-md-6 feed-post">
             <%= image_tag media.images.low_resolution.url, class: "card-img-main"  %>
             <div class="post-text">
-                <p><%= media["likes"]["count"] %> likes</p>
+              <p><%= media["likes"]["count"] %> likes</p>
             </div>
           </div>
-    <% end %>
+      <% end %>
     </div>
   </div>
 </div>
