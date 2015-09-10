@@ -2,28 +2,39 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
-.container-home {
-  padding-top: 30vh;
-  text-align: center;
+.fa {
+  padding-top: 7px;
+  padding-left: 20px;
 }
+
+#nav-title {
+  position:absolute;
+  margin-left: 45%;
+}
+
+#insta-logo {
+  padding: 0;
+  position: absolute;
+  margin-left: 8%;
+}
+
+.container-home {
+  margin-top:-30px;
+  background: transparent image-url("lighthouse.jpg") no-repeat center;
+  background-size:   cover;
+  text-align: center;
+  min-height: 570px;
+
+}
+
 
 .home {
-  color: #2b2b2b;
+  color: #d9ce8c;
   font-weight: 100;
-}
-
-.home-content {
-  margin-top: -100px;
 }
 
 .home-pic {
   float:right;
-}
-
-.shine {
-  margin-top: 150px;
-  border-radius: 150px;
-  box-shadow: 55px 30px 120px 70px rgba(255, 222, 35, 0.75);
 }
 
 h1.home {

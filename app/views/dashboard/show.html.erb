@@ -3,7 +3,8 @@
     <div class="card">
       <div class="card-block">
         <%= image_tag @user.profile_picture, class: "card-img-top"  %>
-        <h4 class="card-title"><%= current_user.nickname %></h4>
+        <h3 class="card-title"><%= @user.username %></h3>
+        <h6 class="card-title name"><em><%= @user.full_name %></em></h6>
         <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.<%= current_user.bio %></p>
         <p class="card-text"><div class="followers"><span class="counter"><strong><%= @user.counts.followed_by %></strong> </span>followers</div></p>
       </div>
@@ -12,13 +13,13 @@
   <div class="col-md-10">
     <div class="my-pics">
       <% @client.user_recent_media.each do |media| %>
-          <div class="col-md-6">
-            <%= image_tag media.images.low_resolution.url, class: "card-img-top"  %>
+          <div class="col-md-6 feed-post">
+            <%= image_tag media.images.low_resolution.url, class: "card-img-main"  %>
             <div class="post-text">
-            <p><%= media["likes"]["count"] %> likes</p>
+                <p><%= media["likes"]["count"] %> likes</p>
                 <% media.comments.data.each do |comment| %>
-                 <p><%= comment.text %><br>- <%= comment.from.username %></p>
-                 <% end %>
+                    <p id="comment"><%= comment.text %> - <%= comment.from.username %></p>
+                <% end %>
             </div>
           </div>
     <% end %>
