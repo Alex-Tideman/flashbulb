@@ -2,9 +2,9 @@
   <div class="col-md-2">
     <div class="card">
       <div class="card-block">
-        <%= image_tag current_user.profile_picture, class: "card-img-top " %>
-        <h5 class="card-title"><%= current_user.username %></h5>
+        <h4 class="card-title"><%= current_user.username %></h4>
         <h6 class="card-title name"><em><%= current_user.full_name %></em></h6>
+        <%= image_tag current_user.profile_picture, class: "card-img-top " %>
         <p class="card-text"><%= current_user.bio %></p>
         <p class="card-text"><div class="followers"><span class="counter"><strong><%= current_user.counts.followed_by %></strong> </span>followers</div></p>
         <hr>

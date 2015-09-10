@@ -15,14 +15,6 @@
   width: 100px;
 }
 
-.card-title {
-  float:right;
-}
-
-.name {
-  float:right;
-  margin-top: -80px;
-}
 
 .card-img-top {
   flex-basis: 40px;
@@ -33,6 +25,11 @@
   box-sizing: border-box;
 }
 
+.card-img-top img{
+  margin-left: 50%;
+}
+
+
 .card-img-main {
   border-radius: 50%;
   border: 1px solid #F29926;
@@ -40,6 +37,9 @@
   padding: 10px;
 }
 
+.card-text {
+  float:right;
+}
 
 .widget-avatar {
   color:white;
