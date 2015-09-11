@@ -4,6 +4,6 @@ Rails.application.routes.draw do
   get  '/', to: 'home#show'
   get  '/feed', to: 'dashboard#feed'
   get  '/dashboard', to: 'dashboard#show'
-  post '/search', to: 'dashboard#search'
+  get '/search', to: 'dashboard#search'
   root 'home#show'
 end

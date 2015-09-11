@@ -21,6 +21,7 @@ gem 'will_paginate'
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'capybara'
+  gem 'rspec-rails'
   gem 'byebug'
   gem 'better_errors'
   gem 'binding_of_caller'
@@ -28,10 +29,13 @@ group :development, :test do
   gem 'launchy'
   # Access an IRB console on exception pages or by using <%= console %> in views
   gem 'web-console', '~> 2.0'
+  gem 'simplecov'
+  gem 'database_cleaner'
 end
 
 group :test do
   gem 'vcr'
   gem 'webmock'
+
 end
 

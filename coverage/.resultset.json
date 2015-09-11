@@ -1,0 +1,89 @@
+{
+  "MiniTest": {
+    "coverage": {
+    },
+    "timestamp": 1441982653
+  },
+  "RSpec": {
+    "coverage": {
+      "/Users/alextideman/TuringProjects/Mod3/Week3/flashbulb/app/helpers/application_helper.rb": [
+        1,
+        null,
+        null
+      ],
+      "/Users/alextideman/TuringProjects/Mod3/Week3/flashbulb/app/controllers/home_controller.rb": [
+        1,
+        1,
+        null,
+        null
+      ],
+      "/Users/alextideman/TuringProjects/Mod3/Week3/flashbulb/app/models/user.rb": [
+        1,
+        null,
+        1,
+        5,
+        null,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        null,
+        5,
+        null,
+        null
+      ],
+      "/Users/alextideman/TuringProjects/Mod3/Week3/flashbulb/app/controllers/sessions_controller.rb": [
+        1,
+        null,
+        1,
+        5,
+        null,
+        5,
+        5,
+        5,
+        5,
+        null,
+        null,
+        null,
+        1,
+        1,
+        1,
+        null,
+        null,
+        1,
+        null,
+        1,
+        5,
+        null,
+        null
+      ],
+      "/Users/alextideman/TuringProjects/Mod3/Week3/flashbulb/app/controllers/dashboard_controller.rb": [
+        1,
+        1,
+        null,
+        1,
+        6,
+        null,
+        null,
+        1,
+        1,
+        null,
+        null,
+        1,
+        2,
+        2,
+        1,
+        1,
+        null,
+        1,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    "timestamp": 1441986609
+  }
+}
