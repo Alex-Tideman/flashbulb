@@ -5,7 +5,6 @@ class UserLogsInWithInstagramTest < ActionDispatch::IntegrationTest
     Capybara.app = Flashbulb::Application
   end
 
-
   test "logging in" do
     visit "/"
     assert_equal 200, page.status_code

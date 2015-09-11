@@ -12,11 +12,6 @@ class ActiveSupport::TestCase
   # Add more helper methods to be used by all tests here...
   OmniAuth.config.test_mode = true
 
-  OmniAuth.config.add_mock(:instagram, {
-                               uid: 1234,
-                               nickname: "al.tides"
-                                     })
-
   VCR.configure do |config|
     config.cassette_library_dir = "test/cassettes"
     config.hook_into :webmock
