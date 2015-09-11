@@ -4,7 +4,7 @@
 
 .card {
   background: rgba(0,0,0,.2);
-  padding: 50px;
+  padding: 20px;
   width: 300px;
 }
 
@@ -24,11 +24,6 @@
   padding: 5px;
   box-sizing: border-box;
 }
-
-.card-img-top img{
-  margin-left: 50%;
-}
-
 
 .card-img-main {
   border-radius: 50%;
@@ -50,8 +45,19 @@ h1 {
   text-align: center;
 }
 
-.card-title {
+.bio-title {
+  text-align: left;
+  margin-left: 50%;
+  margin-top:-100px;
+}
+
+.bio-text {
+  margin-top: 50px;
   text-align: center;
+}
+
+.counter {
+  color:#F29926;
 }
 
 .my-pics {
@@ -64,10 +70,10 @@ h1 {
   width: 30%;
 }
 
-.post-text {
-  text-align: center;
-  margin-left: 50%;
+.post-text p{
+  margin-left:70%;
 }
+
 
 #comment {
   font-size: 10px;
