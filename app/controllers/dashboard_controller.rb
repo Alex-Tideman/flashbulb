@@ -16,8 +16,8 @@ class DashboardController < ApplicationController
     else
       tags = current_client.tag_search(params[:search])
       if tags[0].nil?
-      flash.now[:notice] = "No search results match!"
-      @posts = current_client.user_recent_media
+      flash[:notice] = "No search results match!"
+      redirect_to dashboard_path
       else
       @posts = current_client.tag_recent_media(tags[0].name)
     end

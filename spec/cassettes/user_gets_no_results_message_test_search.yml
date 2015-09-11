@@ -21,7 +21,7 @@ http_interactions:
       message: OK
     headers:
       X-Ratelimit-Remaining:
-      - '4943'
+      - '4858'
       Content-Language:
       - en
       Expires:
@@ -35,11 +35,11 @@ http_interactions:
       Cache-Control:
       - private, no-cache, no-store, must-revalidate
       Date:
-      - Fri, 11 Sep 2015 15:48:17 GMT
+      - Fri, 11 Sep 2015 17:14:25 GMT
       Content-Type:
       - application/json; charset=utf-8
       Set-Cookie:
-      - csrftoken=6069a8560f6470578fb3eb02c9cb0d4f; expires=Fri, 09-Sep-2016 15:48:17
+      - csrftoken=aeb262d6d9a2a74d40f191c6be653596; expires=Fri, 09-Sep-2016 17:14:25
         GMT; Max-Age=31449600; Path=/
       Connection:
       - keep-alive
@@ -50,7 +50,7 @@ http_interactions:
       string: '{"meta":{"code":200},"data":{"username":"al.tides","bio":"","website":"","profile_picture":"http:\/\/photos-c.ak.instagram.com\/hphotos-ak-xaf1\/t51.2885-19\/s150x150\/11887039_1475445926116578_771327568_a.jpg","full_name":"Alex
         Tideman","counts":{"media":5,"followed_by":2,"follows":2},"id":"2177716938"}}'
     http_version: 
-  recorded_at: Fri, 11 Sep 2015 15:49:25 GMT
+  recorded_at: Fri, 11 Sep 2015 17:15:33 GMT
 - request:
     method: get
     uri: https://api.instagram.com/v1/users/self/media/recent.json?access_token=2177716938.9f5aa00.d6cea0874258401ebdb6f1e58bae9f9c
@@ -72,7 +72,7 @@ http_interactions:
       message: OK
     headers:
       X-Ratelimit-Remaining:
-      - '4942'
+      - '4857'
       Content-Language:
       - en
       Expires:
@@ -86,11 +86,11 @@ http_interactions:
       Cache-Control:
       - private, no-cache, no-store, must-revalidate
       Date:
-      - Fri, 11 Sep 2015 15:48:18 GMT
+      - Fri, 11 Sep 2015 17:14:25 GMT
       Content-Type:
       - application/json; charset=utf-8
       Set-Cookie:
-      - csrftoken=9f0786afd6458e4803f5f1384a93b531; expires=Fri, 09-Sep-2016 15:48:18
+      - csrftoken=0b6e3e377b9f0a96cfe58e7bf787d521; expires=Fri, 09-Sep-2016 17:14:25
         GMT; Max-Age=31449600; Path=/
       Connection:
       - keep-alive
@@ -107,7 +107,7 @@ http_interactions:
         Tideman"}},{"attribution":null,"tags":[],"type":"image","location":null,"comments":{"count":0,"data":[]},"filter":"Normal","created_time":"1441830003","link":"https:\/\/instagram.com\/p\/7bEuYpHk33\/","likes":{"count":0,"data":[]},"images":{"low_resolution":{"url":"https:\/\/scontent.cdninstagram.com\/hphotos-xfp1\/t51.2885-15\/s320x320\/e35\/1922118_871229046297804_196333738_n.jpg","width":320,"height":320},"thumbnail":{"url":"https:\/\/scontent.cdninstagram.com\/hphotos-xfp1\/t51.2885-15\/s150x150\/e35\/1922118_871229046297804_196333738_n.jpg","width":150,"height":150},"standard_resolution":{"url":"https:\/\/scontent.cdninstagram.com\/hphotos-xfp1\/t51.2885-15\/s640x640\/sh0.08\/e35\/1922118_871229046297804_196333738_n.jpg","width":640,"height":640}},"users_in_photo":[],"caption":null,"user_has_liked":false,"id":"1070470116172254711_2177716938","user":{"username":"al.tides","profile_picture":"http:\/\/photos-c.ak.instagram.com\/hphotos-ak-xaf1\/t51.2885-19\/s150x150\/11887039_1475445926116578_771327568_a.jpg","id":"2177716938","full_name":"Alex
         Tideman"}}]}'
     http_version: 
-  recorded_at: Fri, 11 Sep 2015 15:49:26 GMT
+  recorded_at: Fri, 11 Sep 2015 17:15:33 GMT
 - request:
     method: get
     uri: https://api.instagram.com/v1/users/self.json?access_token=2177716938.9f5aa00.d6cea0874258401ebdb6f1e58bae9f9c
@@ -129,7 +129,7 @@ http_interactions:
       message: OK
     headers:
       X-Ratelimit-Remaining:
-      - '4941'
+      - '4856'
       Content-Language:
       - en
       Expires:
@@ -143,11 +143,11 @@ http_interactions:
       Cache-Control:
       - private, no-cache, no-store, must-revalidate
       Date:
-      - Fri, 11 Sep 2015 15:48:18 GMT
+      - Fri, 11 Sep 2015 17:14:25 GMT
       Content-Type:
       - application/json; charset=utf-8
       Set-Cookie:
-      - csrftoken=c8b5add1b60c732c92c9d213d6b56152; expires=Fri, 09-Sep-2016 15:48:18
+      - csrftoken=538c3bd9a6d3b14f1536997e21d1a576; expires=Fri, 09-Sep-2016 17:14:25
         GMT; Max-Age=31449600; Path=/
       Connection:
       - keep-alive
@@ -158,7 +158,7 @@ http_interactions:
       string: '{"meta":{"code":200},"data":{"username":"al.tides","bio":"","website":"","profile_picture":"http:\/\/photos-c.ak.instagram.com\/hphotos-ak-xaf1\/t51.2885-19\/s150x150\/11887039_1475445926116578_771327568_a.jpg","full_name":"Alex
         Tideman","counts":{"media":5,"followed_by":2,"follows":2},"id":"2177716938"}}'
     http_version: 
-  recorded_at: Fri, 11 Sep 2015 15:49:26 GMT
+  recorded_at: Fri, 11 Sep 2015 17:15:33 GMT
 - request:
     method: get
     uri: https://api.instagram.com/v1/tags/search.json?access_token=2177716938.9f5aa00.d6cea0874258401ebdb6f1e58bae9f9c&q=asdfa%3Blqwe%3Basdlkfaf
@@ -180,7 +180,7 @@ http_interactions:
       message: OK
     headers:
       X-Ratelimit-Remaining:
-      - '4940'
+      - '4855'
       Content-Language:
       - en
       Expires:
@@ -194,11 +194,11 @@ http_interactions:
       Cache-Control:
       - private, no-cache, no-store, must-revalidate
       Date:
-      - Fri, 11 Sep 2015 15:48:18 GMT
+      - Fri, 11 Sep 2015 17:14:26 GMT
       Content-Type:
       - application/json; charset=utf-8
       Set-Cookie:
-      - csrftoken=1e52a50fae9edd4f497fabb03d36d27f; expires=Fri, 09-Sep-2016 15:48:18
+      - csrftoken=d210cb70414bfdb3d7fbdfa0eefc1660; expires=Fri, 09-Sep-2016 17:14:26
         GMT; Max-Age=31449600; Path=/
       Connection:
       - keep-alive
@@ -208,7 +208,58 @@ http_interactions:
       encoding: UTF-8
       string: '{"meta":{"code":200},"data":[]}'
     http_version: 
-  recorded_at: Fri, 11 Sep 2015 15:49:26 GMT
+  recorded_at: Fri, 11 Sep 2015 17:15:34 GMT
+- request:
+    method: get
+    uri: https://api.instagram.com/v1/users/self.json?access_token=2177716938.9f5aa00.d6cea0874258401ebdb6f1e58bae9f9c
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - application/json; charset=utf-8
+      User-Agent:
+      - Instagram Ruby Gem 1.1.6
+      Authorization:
+      - Token token="2177716938.9f5aa00.d6cea0874258401ebdb6f1e58bae9f9c"
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      X-Ratelimit-Remaining:
+      - '4854'
+      Content-Language:
+      - en
+      Expires:
+      - Sat, 01 Jan 2000 00:00:00 GMT
+      Vary:
+      - Cookie, Accept-Language, Accept-Encoding
+      X-Ratelimit-Limit:
+      - '5000'
+      Pragma:
+      - no-cache
+      Cache-Control:
+      - private, no-cache, no-store, must-revalidate
+      Date:
+      - Fri, 11 Sep 2015 17:14:26 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Set-Cookie:
+      - csrftoken=1ee9fbc0ba3aa45a2c7ad74c44874695; expires=Fri, 09-Sep-2016 17:14:26
+        GMT; Max-Age=31449600; Path=/
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '245'
+    body:
+      encoding: ASCII-8BIT
+      string: '{"meta":{"code":200},"data":{"username":"al.tides","bio":"","website":"","profile_picture":"http:\/\/photos-c.ak.instagram.com\/hphotos-ak-xaf1\/t51.2885-19\/s150x150\/11887039_1475445926116578_771327568_a.jpg","full_name":"Alex
+        Tideman","counts":{"media":5,"followed_by":2,"follows":2},"id":"2177716938"}}'
+    http_version: 
+  recorded_at: Fri, 11 Sep 2015 17:15:34 GMT
 - request:
     method: get
     uri: https://api.instagram.com/v1/users/self/media/recent.json?access_token=2177716938.9f5aa00.d6cea0874258401ebdb6f1e58bae9f9c
@@ -230,7 +281,7 @@ http_interactions:
       message: OK
     headers:
       X-Ratelimit-Remaining:
-      - '4939'
+      - '4853'
       Content-Language:
       - en
       Expires:
@@ -244,11 +295,11 @@ http_interactions:
       Cache-Control:
       - private, no-cache, no-store, must-revalidate
       Date:
-      - Fri, 11 Sep 2015 15:48:19 GMT
+      - Fri, 11 Sep 2015 17:14:26 GMT
       Content-Type:
       - application/json; charset=utf-8
       Set-Cookie:
-      - csrftoken=3d6bd49786347cbfcc4336dc8088147e; expires=Fri, 09-Sep-2016 15:48:19
+      - csrftoken=507cea856ff2b231522f131dc0d9ce85; expires=Fri, 09-Sep-2016 17:14:26
         GMT; Max-Age=31449600; Path=/
       Connection:
       - keep-alive
@@ -265,5 +316,5 @@ http_interactions:
         Tideman"}},{"attribution":null,"tags":[],"type":"image","location":null,"comments":{"count":0,"data":[]},"filter":"Normal","created_time":"1441830003","link":"https:\/\/instagram.com\/p\/7bEuYpHk33\/","likes":{"count":0,"data":[]},"images":{"low_resolution":{"url":"https:\/\/scontent.cdninstagram.com\/hphotos-xfp1\/t51.2885-15\/s320x320\/e35\/1922118_871229046297804_196333738_n.jpg","width":320,"height":320},"thumbnail":{"url":"https:\/\/scontent.cdninstagram.com\/hphotos-xfp1\/t51.2885-15\/s150x150\/e35\/1922118_871229046297804_196333738_n.jpg","width":150,"height":150},"standard_resolution":{"url":"https:\/\/scontent.cdninstagram.com\/hphotos-xfp1\/t51.2885-15\/s640x640\/sh0.08\/e35\/1922118_871229046297804_196333738_n.jpg","width":640,"height":640}},"users_in_photo":[],"caption":null,"user_has_liked":false,"id":"1070470116172254711_2177716938","user":{"username":"al.tides","profile_picture":"http:\/\/photos-c.ak.instagram.com\/hphotos-ak-xaf1\/t51.2885-19\/s150x150\/11887039_1475445926116578_771327568_a.jpg","id":"2177716938","full_name":"Alex
         Tideman"}}]}'
     http_version: 
-  recorded_at: Fri, 11 Sep 2015 15:49:27 GMT
+  recorded_at: Fri, 11 Sep 2015 17:15:34 GMT
 recorded_with: VCR 2.9.3

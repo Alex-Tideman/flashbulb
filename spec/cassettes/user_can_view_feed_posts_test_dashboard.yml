@@ -21,7 +21,7 @@ http_interactions:
       message: OK
     headers:
       X-Ratelimit-Remaining:
-      - '4952'
+      - '4867'
       Content-Language:
       - en
       Expires:
@@ -35,11 +35,11 @@ http_interactions:
       Cache-Control:
       - private, no-cache, no-store, must-revalidate
       Date:
-      - Fri, 11 Sep 2015 15:48:14 GMT
+      - Fri, 11 Sep 2015 17:14:22 GMT
       Content-Type:
       - application/json; charset=utf-8
       Set-Cookie:
-      - csrftoken=95b2950c8b95fe61346a5ddc802b3a1d; expires=Fri, 09-Sep-2016 15:48:14
+      - csrftoken=af6c40d5013fbaf9e3e4c0525df2a387; expires=Fri, 09-Sep-2016 17:14:22
         GMT; Max-Age=31449600; Path=/
       Connection:
       - keep-alive
@@ -50,7 +50,7 @@ http_interactions:
       string: '{"meta":{"code":200},"data":{"username":"al.tides","bio":"","website":"","profile_picture":"http:\/\/photos-c.ak.instagram.com\/hphotos-ak-xaf1\/t51.2885-19\/s150x150\/11887039_1475445926116578_771327568_a.jpg","full_name":"Alex
         Tideman","counts":{"media":5,"followed_by":2,"follows":2},"id":"2177716938"}}'
     http_version: 
-  recorded_at: Fri, 11 Sep 2015 15:49:22 GMT
+  recorded_at: Fri, 11 Sep 2015 17:15:30 GMT
 - request:
     method: get
     uri: https://api.instagram.com/v1/users/self/media/recent.json?access_token=2177716938.9f5aa00.d6cea0874258401ebdb6f1e58bae9f9c
@@ -72,7 +72,7 @@ http_interactions:
       message: OK
     headers:
       X-Ratelimit-Remaining:
-      - '4951'
+      - '4866'
       Content-Language:
       - en
       Expires:
@@ -86,11 +86,11 @@ http_interactions:
       Cache-Control:
       - private, no-cache, no-store, must-revalidate
       Date:
-      - Fri, 11 Sep 2015 15:48:15 GMT
+      - Fri, 11 Sep 2015 17:14:23 GMT
       Content-Type:
       - application/json; charset=utf-8
       Set-Cookie:
-      - csrftoken=be5820ad97be0a5c6e71b250bfb1fd5f; expires=Fri, 09-Sep-2016 15:48:15
+      - csrftoken=84f40a8f581615c2cd43c21d1c3944fa; expires=Fri, 09-Sep-2016 17:14:23
         GMT; Max-Age=31449600; Path=/
       Connection:
       - keep-alive
@@ -107,7 +107,7 @@ http_interactions:
         Tideman"}},{"attribution":null,"tags":[],"type":"image","location":null,"comments":{"count":0,"data":[]},"filter":"Normal","created_time":"1441830003","link":"https:\/\/instagram.com\/p\/7bEuYpHk33\/","likes":{"count":0,"data":[]},"images":{"low_resolution":{"url":"https:\/\/scontent.cdninstagram.com\/hphotos-xfp1\/t51.2885-15\/s320x320\/e35\/1922118_871229046297804_196333738_n.jpg","width":320,"height":320},"thumbnail":{"url":"https:\/\/scontent.cdninstagram.com\/hphotos-xfp1\/t51.2885-15\/s150x150\/e35\/1922118_871229046297804_196333738_n.jpg","width":150,"height":150},"standard_resolution":{"url":"https:\/\/scontent.cdninstagram.com\/hphotos-xfp1\/t51.2885-15\/s640x640\/sh0.08\/e35\/1922118_871229046297804_196333738_n.jpg","width":640,"height":640}},"users_in_photo":[],"caption":null,"user_has_liked":false,"id":"1070470116172254711_2177716938","user":{"username":"al.tides","profile_picture":"http:\/\/photos-c.ak.instagram.com\/hphotos-ak-xaf1\/t51.2885-19\/s150x150\/11887039_1475445926116578_771327568_a.jpg","id":"2177716938","full_name":"Alex
         Tideman"}}]}'
     http_version: 
-  recorded_at: Fri, 11 Sep 2015 15:49:22 GMT
+  recorded_at: Fri, 11 Sep 2015 17:15:31 GMT
 - request:
     method: get
     uri: https://api.instagram.com/v1/users/self.json?access_token=2177716938.9f5aa00.d6cea0874258401ebdb6f1e58bae9f9c
@@ -129,7 +129,7 @@ http_interactions:
       message: OK
     headers:
       X-Ratelimit-Remaining:
-      - '4950'
+      - '4865'
       Content-Language:
       - en
       Expires:
@@ -143,11 +143,11 @@ http_interactions:
       Cache-Control:
       - private, no-cache, no-store, must-revalidate
       Date:
-      - Fri, 11 Sep 2015 15:48:15 GMT
+      - Fri, 11 Sep 2015 17:14:23 GMT
       Content-Type:
       - application/json; charset=utf-8
       Set-Cookie:
-      - csrftoken=7925a2fe7ffb8172f958909441c68bda; expires=Fri, 09-Sep-2016 15:48:15
+      - csrftoken=07fcc8808eea56818d69f3f5f65901ac; expires=Fri, 09-Sep-2016 17:14:23
         GMT; Max-Age=31449600; Path=/
       Connection:
       - keep-alive
@@ -158,7 +158,7 @@ http_interactions:
       string: '{"meta":{"code":200},"data":{"username":"al.tides","bio":"","website":"","profile_picture":"http:\/\/photos-c.ak.instagram.com\/hphotos-ak-xaf1\/t51.2885-19\/s150x150\/11887039_1475445926116578_771327568_a.jpg","full_name":"Alex
         Tideman","counts":{"media":5,"followed_by":2,"follows":2},"id":"2177716938"}}'
     http_version: 
-  recorded_at: Fri, 11 Sep 2015 15:49:23 GMT
+  recorded_at: Fri, 11 Sep 2015 17:15:31 GMT
 - request:
     method: get
     uri: https://api.instagram.com/v1/users/self/feed.json?access_token=2177716938.9f5aa00.d6cea0874258401ebdb6f1e58bae9f9c
@@ -180,7 +180,7 @@ http_interactions:
       message: OK
     headers:
       X-Ratelimit-Remaining:
-      - '4949'
+      - '4864'
       Content-Language:
       - en
       Expires:
@@ -194,11 +194,11 @@ http_interactions:
       Cache-Control:
       - private, no-cache, no-store, must-revalidate
       Date:
-      - Fri, 11 Sep 2015 15:48:16 GMT
+      - Fri, 11 Sep 2015 17:14:23 GMT
       Content-Type:
       - application/json; charset=utf-8
       Set-Cookie:
-      - csrftoken=906e01f91f9c8c206a8dfb935a2fcf7b; expires=Fri, 09-Sep-2016 15:48:16
+      - csrftoken=163195b86d62bbb34ca09c571c13bcac; expires=Fri, 09-Sep-2016 17:14:23
         GMT; Max-Age=31449600; Path=/
       Connection:
       - keep-alive
@@ -295,5 +295,5 @@ http_interactions:
         Udvare"},{"username":"erikapesta","profile_picture":"http:\/\/photos-g.ak.instagram.com\/hphotos-ak-xap1\/t51.2885-19\/11184520_1581075418799398_1696486428_a.jpg","id":"22841830","full_name":"Erika"}]},"images":{"low_resolution":{"url":"https:\/\/scontent.cdninstagram.com\/hphotos-xap1\/t51.2885-15\/s320x320\/e15\/11123691_101276250203425_1574592250_n.jpg","width":320,"height":320},"thumbnail":{"url":"https:\/\/scontent.cdninstagram.com\/hphotos-xap1\/t51.2885-15\/s150x150\/e15\/11123691_101276250203425_1574592250_n.jpg","width":150,"height":150},"standard_resolution":{"url":"https:\/\/scontent.cdninstagram.com\/hphotos-xap1\/t51.2885-15\/e15\/11123691_101276250203425_1574592250_n.jpg","width":640,"height":640}},"users_in_photo":[],"caption":{"created_time":"1428945736","text":"Remy
         uses the ottoman","from":{"username":"lblanch2","profile_picture":"http:\/\/photos-d.ak.instagram.com\/hphotos-ak-xaf1\/t51.2885-19\/11821732_716994878406555_1811671439_a.jpg","id":"242055229","full_name":""},"id":"962389051099551892"},"user_has_liked":false,"id":"962389050856282947_242055229","user":{"username":"lblanch2","profile_picture":"http:\/\/photos-d.ak.instagram.com\/hphotos-ak-xaf1\/t51.2885-19\/11821732_716994878406555_1811671439_a.jpg","id":"242055229","full_name":""}}]}'
     http_version: 
-  recorded_at: Fri, 11 Sep 2015 15:49:24 GMT
+  recorded_at: Fri, 11 Sep 2015 17:15:31 GMT
 recorded_with: VCR 2.9.3

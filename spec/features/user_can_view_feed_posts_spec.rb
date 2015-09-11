@@ -84,7 +84,7 @@ RSpec.describe "User can access feed after logging in", type: :feature do
         click_button ''
       end
 
-      expect(current_path).to eq search_path
+      expect(current_path).to eq dashboard_path
       expect(page).to have_content("No search results match!")
 
 
