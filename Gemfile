@@ -13,9 +13,6 @@ gem 'omniauth-instagram'
 gem 'figaro'
 gem 'hurley'
 gem 'instagram'
-gem 'will_paginate'
-
-
 
 
 group :development, :test do

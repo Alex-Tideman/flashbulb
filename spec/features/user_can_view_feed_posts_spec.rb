@@ -91,6 +91,25 @@ RSpec.describe "User can access feed after logging in", type: :feature do
     end
   end
 
+  it 'user gets message if empty search result' do
+    VCR.use_cassette('user_gets_empty_results_message_test#search') do
+      visit root_path
+      get_user
+
+      click_link_or_button 'Login'
+
+      expect(current_path).to eq dashboard_path
+
+      within("#topmenu") do
+        fill_in "search", :with => ""
+        click_button ''
+      end
+
+      expect(current_path).to eq dashboard_path
+      expect(page).to have_content("Enter a search result!")
+    end
+  end
+
 
 
 end

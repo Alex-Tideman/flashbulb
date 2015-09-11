@@ -1,4 +1,5 @@
 class DashboardController < ApplicationController
+  require 'will_paginate/array'
   before_action :authorize!
 
   def show
