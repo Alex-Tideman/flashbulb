@@ -5,5 +5,6 @@ Rails.application.routes.draw do
   get  '/feed', to: 'dashboard#feed'
   get  '/dashboard', to: 'dashboard#show'
   get '/search', to: 'dashboard#search'
+  get '/popular', to: 'dashboard#popular'
   root 'home#show'
 end

@@ -2,8 +2,13 @@
   <ul class="dropdown clearfix boxed">
     <li class="menu-level-0"><span><%= link_to "Home", root_path %></span></li>
     <% if current_user %>
-        <li class="menu-level-0"><span><%= link_to "My Media", dashboard_path %></span></li>
-        <li class="menu-level-0"><span><%= link_to "Feed", feed_path %></span></li>
+     <li class="menu-level-0"><span><%= link_to 'Media', dashboard_path%></span>
+            <ul class="submenu-1">
+                <li class="menu-level-1"><span><%= link_to "My Media", dashboard_path %></span></li>
+                <li class="menu-level-1"><span><%= link_to "Feed", feed_path %></span></li>
+                <li class="menu-level-1"><span><%= link_to "Trending", popular_path %></span></li>
+            </ul>
+        </li>
         <li class="menu-level-0"><span><%= link_to "Logout", logout_path, class: "btn btn-sm" %></span></li>
         <section id="nav-title"><h2>Flashbulb</h2></section>
         <li class="menu-search">

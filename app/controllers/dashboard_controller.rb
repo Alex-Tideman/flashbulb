@@ -24,4 +24,8 @@ class DashboardController < ApplicationController
     end
   end
 
+  def popular
+    @posts = current_client.media_popular
+  end
+
 end
