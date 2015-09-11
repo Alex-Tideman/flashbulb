@@ -8,7 +8,9 @@
             <h6><em><%= current_user.full_name %></em></h6>
         </div>
         <div class="bio-text">
-        <p>"<%= current_user.bio %>"</p>
+          <% if !current_user.bio.empty? %>
+            <p>"<%= current_user.bio %>"</p>
+           <% end %>
         <p><div class="followers"><span class="counter"><strong><%= current_user.counts.followed_by %></strong> </span>followers</div></p>
         </div>
         <hr>
@@ -18,7 +20,7 @@
           <% @posts.each do |post| %>
             <ul>
               <% post.comments.data.each do |comment| %>
-                  <li id="comment"><%= truncate(comment.text, length: 100) %> - <%= comment.from.username %></li>
+                  <li id="comment"><%= truncate(comment.text, length: 100) %> - <a href="https://instagram.com/<%= comment.from.username %>" class='username'><%=  comment.from.username %></a></li>
               <% end %>
             </ul>
       <% end %>
@@ -48,7 +50,7 @@
                   <div class="modal-footer">
                     <ul>
                       <% post.comments.data.each do |comment| %>
-                          <li id="comment"><%= truncate(comment.text, length: 100) %> - <%= comment.from.username %></li>
+                          <li id="comment"><%= truncate(comment.text, length: 100) %> - <a href="https://instagram.com/<%= comment.from.username %>" class="username"><%= comment.from.username class:'username' %></a></li>
                       <% end %>
                     </ul>
                   </div>
