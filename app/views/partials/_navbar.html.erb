@@ -6,7 +6,7 @@
             <ul class="submenu-1">
                 <li class="menu-level-1"><span><%= link_to "My Media", dashboard_path %></span></li>
                 <li class="menu-level-1"><span><%= link_to "Feed", feed_path %></span></li>
-                <li class="menu-level-1"><span><%= link_to "Trending", popular_path %></span></li>
+                <li class="menu-level-1"><span><%= link_to "Popular", popular_path %></span></li>
             </ul>
         </li>
         <li class="menu-level-0"><span><%= link_to "Logout", logout_path, class: "btn btn-sm" %></span></li>
@@ -15,7 +15,7 @@
           <%= render partial: 'partials/search_form' %>
         </li>
     <% else %>
-        <a id="insta-logo" href="auth/instagram"><i class="fa fa-camera-retro fa-4x"><h5>Login</h5></i></a>
+        <a id="insta-logo" href="auth/instagram"><i class="fa fa-camera-retro fa-4x"></i><h5>Login</h5></a>
     <% end %>
     <section id="nav-title"><h2>Flashbulb</h2></section>
   </ul>

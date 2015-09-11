@@ -21,7 +21,7 @@ http_interactions:
       message: OK
     headers:
       X-Ratelimit-Remaining:
-      - '4867'
+      - '4878'
       Content-Language:
       - en
       Expires:
@@ -35,11 +35,11 @@ http_interactions:
       Cache-Control:
       - private, no-cache, no-store, must-revalidate
       Date:
-      - Fri, 11 Sep 2015 17:14:22 GMT
+      - Fri, 11 Sep 2015 18:19:17 GMT
       Content-Type:
       - application/json; charset=utf-8
       Set-Cookie:
-      - csrftoken=af6c40d5013fbaf9e3e4c0525df2a387; expires=Fri, 09-Sep-2016 17:14:22
+      - csrftoken=2654e1aaf672ea3c565fc93238925737; expires=Fri, 09-Sep-2016 18:19:17
         GMT; Max-Age=31449600; Path=/
       Connection:
       - keep-alive
@@ -50,7 +50,7 @@ http_interactions:
       string: '{"meta":{"code":200},"data":{"username":"al.tides","bio":"","website":"","profile_picture":"http:\/\/photos-c.ak.instagram.com\/hphotos-ak-xaf1\/t51.2885-19\/s150x150\/11887039_1475445926116578_771327568_a.jpg","full_name":"Alex
         Tideman","counts":{"media":5,"followed_by":2,"follows":2},"id":"2177716938"}}'
     http_version: 
-  recorded_at: Fri, 11 Sep 2015 17:15:30 GMT
+  recorded_at: Fri, 11 Sep 2015 18:20:25 GMT
 - request:
     method: get
     uri: https://api.instagram.com/v1/users/self/media/recent.json?access_token=2177716938.9f5aa00.d6cea0874258401ebdb6f1e58bae9f9c
@@ -72,7 +72,7 @@ http_interactions:
       message: OK
     headers:
       X-Ratelimit-Remaining:
-      - '4866'
+      - '4877'
       Content-Language:
       - en
       Expires:
@@ -86,11 +86,11 @@ http_interactions:
       Cache-Control:
       - private, no-cache, no-store, must-revalidate
       Date:
-      - Fri, 11 Sep 2015 17:14:23 GMT
+      - Fri, 11 Sep 2015 18:19:18 GMT
       Content-Type:
       - application/json; charset=utf-8
       Set-Cookie:
-      - csrftoken=84f40a8f581615c2cd43c21d1c3944fa; expires=Fri, 09-Sep-2016 17:14:23
+      - csrftoken=884c2231aeb8cdd1c68b6e8e3453b916; expires=Fri, 09-Sep-2016 18:19:18
         GMT; Max-Age=31449600; Path=/
       Connection:
       - keep-alive
@@ -107,7 +107,7 @@ http_interactions:
         Tideman"}},{"attribution":null,"tags":[],"type":"image","location":null,"comments":{"count":0,"data":[]},"filter":"Normal","created_time":"1441830003","link":"https:\/\/instagram.com\/p\/7bEuYpHk33\/","likes":{"count":0,"data":[]},"images":{"low_resolution":{"url":"https:\/\/scontent.cdninstagram.com\/hphotos-xfp1\/t51.2885-15\/s320x320\/e35\/1922118_871229046297804_196333738_n.jpg","width":320,"height":320},"thumbnail":{"url":"https:\/\/scontent.cdninstagram.com\/hphotos-xfp1\/t51.2885-15\/s150x150\/e35\/1922118_871229046297804_196333738_n.jpg","width":150,"height":150},"standard_resolution":{"url":"https:\/\/scontent.cdninstagram.com\/hphotos-xfp1\/t51.2885-15\/s640x640\/sh0.08\/e35\/1922118_871229046297804_196333738_n.jpg","width":640,"height":640}},"users_in_photo":[],"caption":null,"user_has_liked":false,"id":"1070470116172254711_2177716938","user":{"username":"al.tides","profile_picture":"http:\/\/photos-c.ak.instagram.com\/hphotos-ak-xaf1\/t51.2885-19\/s150x150\/11887039_1475445926116578_771327568_a.jpg","id":"2177716938","full_name":"Alex
         Tideman"}}]}'
     http_version: 
-  recorded_at: Fri, 11 Sep 2015 17:15:31 GMT
+  recorded_at: Fri, 11 Sep 2015 18:20:26 GMT
 - request:
     method: get
     uri: https://api.instagram.com/v1/users/self.json?access_token=2177716938.9f5aa00.d6cea0874258401ebdb6f1e58bae9f9c
@@ -129,7 +129,7 @@ http_interactions:
       message: OK
     headers:
       X-Ratelimit-Remaining:
-      - '4865'
+      - '4876'
       Content-Language:
       - en
       Expires:
@@ -143,11 +143,11 @@ http_interactions:
       Cache-Control:
       - private, no-cache, no-store, must-revalidate
       Date:
-      - Fri, 11 Sep 2015 17:14:23 GMT
+      - Fri, 11 Sep 2015 18:19:18 GMT
       Content-Type:
       - application/json; charset=utf-8
       Set-Cookie:
-      - csrftoken=07fcc8808eea56818d69f3f5f65901ac; expires=Fri, 09-Sep-2016 17:14:23
+      - csrftoken=65df2b3c42930ef8d7de4c8eef6940c2; expires=Fri, 09-Sep-2016 18:19:18
         GMT; Max-Age=31449600; Path=/
       Connection:
       - keep-alive
@@ -158,7 +158,7 @@ http_interactions:
       string: '{"meta":{"code":200},"data":{"username":"al.tides","bio":"","website":"","profile_picture":"http:\/\/photos-c.ak.instagram.com\/hphotos-ak-xaf1\/t51.2885-19\/s150x150\/11887039_1475445926116578_771327568_a.jpg","full_name":"Alex
         Tideman","counts":{"media":5,"followed_by":2,"follows":2},"id":"2177716938"}}'
     http_version: 
-  recorded_at: Fri, 11 Sep 2015 17:15:31 GMT
+  recorded_at: Fri, 11 Sep 2015 18:20:26 GMT
 - request:
     method: get
     uri: https://api.instagram.com/v1/users/self/feed.json?access_token=2177716938.9f5aa00.d6cea0874258401ebdb6f1e58bae9f9c
@@ -180,7 +180,7 @@ http_interactions:
       message: OK
     headers:
       X-Ratelimit-Remaining:
-      - '4864'
+      - '4875'
       Content-Language:
       - en
       Expires:
@@ -194,20 +194,20 @@ http_interactions:
       Cache-Control:
       - private, no-cache, no-store, must-revalidate
       Date:
-      - Fri, 11 Sep 2015 17:14:23 GMT
+      - Fri, 11 Sep 2015 18:19:19 GMT
       Content-Type:
       - application/json; charset=utf-8
       Set-Cookie:
-      - csrftoken=163195b86d62bbb34ca09c571c13bcac; expires=Fri, 09-Sep-2016 17:14:23
+      - csrftoken=d8094186257128d1dd0c8f157a6e1c70; expires=Fri, 09-Sep-2016 18:19:19
         GMT; Max-Age=31449600; Path=/
       Connection:
       - keep-alive
       Content-Length:
-      - '6412'
+      - '6355'
     body:
       encoding: ASCII-8BIT
-      string: '{"pagination":{},"meta":{"code":200},"data":[{"attribution":null,"tags":["windriverrange","fishing","somewhereinwyoming","cutthroat"],"type":"image","location":null,"comments":{"count":0,"data":[]},"filter":"Perpetua","created_time":"1441947098","link":"https:\/\/instagram.com\/p\/7ekEN9s8Op\/","likes":{"count":18,"data":[{"username":"kenny_conwell","profile_picture":"http:\/\/photos-f.ak.instagram.com\/hphotos-ak-xfa1\/t51.2885-19\/s150x150\/11351954_1460293710967885_160585690_a.jpg","id":"179548958","full_name":"Kenny
-        Conwell"},{"username":"justinhobahwong","profile_picture":"http:\/\/photos-a.ak.instagram.com\/hphotos-ak-xaf1\/t51.2885-19\/11379082_898897230182632_1059742754_a.jpg","id":"252380051","full_name":""},{"username":"leah0914","profile_picture":"http:\/\/scontent.cdninstagram.com\/hphotos-xaf1\/t51.2885-19\/11246626_1014229501922822_1115118114_a.jpg","id":"202516094","full_name":"Leah
+      string: '{"pagination":{},"meta":{"code":200},"data":[{"attribution":null,"tags":["windriverrange","fishing","somewhereinwyoming","cutthroat"],"type":"image","location":null,"comments":{"count":0,"data":[]},"filter":"Perpetua","created_time":"1441947098","link":"https:\/\/instagram.com\/p\/7ekEN9s8Op\/","likes":{"count":19,"data":[{"username":"justinhobahwong","profile_picture":"http:\/\/photos-a.ak.instagram.com\/hphotos-ak-xaf1\/t51.2885-19\/11379082_898897230182632_1059742754_a.jpg","id":"252380051","full_name":""},{"username":"griffnh","profile_picture":"http:\/\/scontent.cdninstagram.com\/hphotos-xpf1\/t51.2885-19\/10831925_429430253871358_2137293922_a.jpg","id":"513504188","full_name":"Griffin
+        Howe"},{"username":"leah0914","profile_picture":"http:\/\/scontent.cdninstagram.com\/hphotos-xaf1\/t51.2885-19\/11246626_1014229501922822_1115118114_a.jpg","id":"202516094","full_name":"Leah
         Moore"},{"username":"stacimaehem","profile_picture":"http:\/\/photos-d.ak.instagram.com\/hphotos-ak-xaf1\/t51.2885-19\/11849112_695839327226675_530237301_a.jpg","id":"316020427","full_name":"stacimaehem"}]},"images":{"low_resolution":{"url":"https:\/\/scontent.cdninstagram.com\/hphotos-xfa1\/t51.2885-15\/s320x320\/e35\/11910275_1631813130434082_1478140651_n.jpg","width":320,"height":320},"thumbnail":{"url":"https:\/\/scontent.cdninstagram.com\/hphotos-xaf1\/t51.2885-15\/s150x150\/e35\/c0.135.1080.1080\/11821797_443608745826768_1434392699_n.jpg","width":150,"height":150},"standard_resolution":{"url":"https:\/\/scontent.cdninstagram.com\/hphotos-xfa1\/t51.2885-15\/s640x640\/sh0.08\/e35\/11910275_1631813130434082_1478140651_n.jpg","width":640,"height":640}},"users_in_photo":[],"caption":{"created_time":"1441947098","text":"Shameless
         selfie. #windriverrange #cutthroat #fishing #somewhereinwyoming","from":{"username":"jkchrondor","profile_picture":"http:\/\/scontent.cdninstagram.com\/hphotos-xta1\/t51.2885-19\/10848160_581907701954120_1613397019_a.jpg","id":"1608183311","full_name":"Jake
         Condon"},"id":"1071452385336082770"},"user_has_liked":false,"id":"1071452380906898345_1608183311","user":{"username":"jkchrondor","profile_picture":"http:\/\/scontent.cdninstagram.com\/hphotos-xta1\/t51.2885-19\/10848160_581907701954120_1613397019_a.jpg","id":"1608183311","full_name":"Jake
@@ -295,5 +295,5 @@ http_interactions:
         Udvare"},{"username":"erikapesta","profile_picture":"http:\/\/photos-g.ak.instagram.com\/hphotos-ak-xap1\/t51.2885-19\/11184520_1581075418799398_1696486428_a.jpg","id":"22841830","full_name":"Erika"}]},"images":{"low_resolution":{"url":"https:\/\/scontent.cdninstagram.com\/hphotos-xap1\/t51.2885-15\/s320x320\/e15\/11123691_101276250203425_1574592250_n.jpg","width":320,"height":320},"thumbnail":{"url":"https:\/\/scontent.cdninstagram.com\/hphotos-xap1\/t51.2885-15\/s150x150\/e15\/11123691_101276250203425_1574592250_n.jpg","width":150,"height":150},"standard_resolution":{"url":"https:\/\/scontent.cdninstagram.com\/hphotos-xap1\/t51.2885-15\/e15\/11123691_101276250203425_1574592250_n.jpg","width":640,"height":640}},"users_in_photo":[],"caption":{"created_time":"1428945736","text":"Remy
         uses the ottoman","from":{"username":"lblanch2","profile_picture":"http:\/\/photos-d.ak.instagram.com\/hphotos-ak-xaf1\/t51.2885-19\/11821732_716994878406555_1811671439_a.jpg","id":"242055229","full_name":""},"id":"962389051099551892"},"user_has_liked":false,"id":"962389050856282947_242055229","user":{"username":"lblanch2","profile_picture":"http:\/\/photos-d.ak.instagram.com\/hphotos-ak-xaf1\/t51.2885-19\/11821732_716994878406555_1811671439_a.jpg","id":"242055229","full_name":""}}]}'
     http_version: 
-  recorded_at: Fri, 11 Sep 2015 17:15:31 GMT
+  recorded_at: Fri, 11 Sep 2015 18:20:27 GMT
 recorded_with: VCR 2.9.3

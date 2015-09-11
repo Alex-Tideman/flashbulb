@@ -51,6 +51,22 @@ RSpec.describe "User can access feed after logging in", type: :feature do
   end
 
 
+  it 'user can view popular' do
+    VCR.use_cassette('user_can_view_popular_posts_test#popular') do
+      visit root_path
+      get_user
+
+      click_link_or_button 'Popular'
+
+      expect(current_path).to eq popular_path
+
+      expect(page).to have_content("al.tides")
+      expect(page).to have_content("Logout")
+
+    end
+  end
+
+
     it 'user can view search page' do
       VCR.use_cassette('user_can_view_search_posts_test#search') do
         visit root_path

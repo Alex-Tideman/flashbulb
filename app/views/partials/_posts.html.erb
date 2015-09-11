@@ -18,7 +18,7 @@
           <% @posts.each do |post| %>
             <ul>
               <% post.comments.data.each do |comment| %>
-                  <li id="comment"><%= comment.text %> - <%= comment.from.username %></li>
+                  <li id="comment"><%= truncate(comment.text, length: 100) %> - <%= comment.from.username %></li>
               <% end %>
             </ul>
       <% end %>
@@ -48,7 +48,7 @@
                   <div class="modal-footer">
                     <ul>
                       <% post.comments.data.each do |comment| %>
-                          <li id="comment"><%= comment.text %> - <%= comment.from.username %></li>
+                          <li id="comment"><%= truncate(comment.text, length: 100) %> - <%= comment.from.username %></li>
                       <% end %>
                     </ul>
                   </div>
