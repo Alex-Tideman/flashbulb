@@ -16,6 +16,7 @@
 
 @import "bootstrap-sprockets";
 @import "bootstrap";
+@import url('//fonts.googleapis.com/css?family=Lato:300');
 
 .row {
   margin: 0;
@@ -33,4 +34,8 @@
 
 .boxed {
   background-color: #F29926;
+}
+
+body {
+  font-family: 'Lato', sans-serif;
 }
