@@ -56,13 +56,16 @@ RSpec.describe "User can access feed after logging in", type: :feature do
       visit root_path
       get_user
 
+      click_link_or_button 'Login'
+
+      expect(current_path).to eq dashboard_path
+
       click_link_or_button 'Popular'
 
       expect(current_path).to eq popular_path
 
       expect(page).to have_content("al.tides")
       expect(page).to have_content("Logout")
-
     end
   end
 
